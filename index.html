@@ -11,79 +11,102 @@
 </head>
 
 <body>
-    <div class="container-fluid ">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-6 yellow">
-                <div class="row">
+            <div class="col-6 yellow ">
+                <div class="row position-relative">
                     <div class="col-8">
-                        <h1>Create Your Burger</h1>
+                        <h1 class="mt-5 pb-3">Create Your Burger</h1>
                     </div>
                     <div class="col-4">
-                        <img src="" alt="">
+                        <div class="">
+                            <div class="img-container position-absolute top-100 start-100 translate-middle">
+                                <img src="./img/burger-top.png" alt="burger">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-6 gold-rose"></div>
         </div>
     </div>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-6">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Name Your Burger</h2>
+                        <h2 class="my-5">Name Your Burger</h2>
                     </div>
                     <div class="col-12">
-                        <h3>Ingredients</h3>
+                        <h3 class="my-2">Ingredients</h3>
                     </div>
                     <div class="col-12">
                         <div class="row">
                             <div class="col-6">
-                                <div class="row">
-                                    <div class="col-12">
+                                <div class="row mb-2">
+                                    <div class="col-12 my-2">
                                         <form action="">
-                                            <label for="box-ingredient1">Cheese</label>
-                                            <input type="checkbox" class="check-ingredients" id="box-ingredient1" name="box-ingredient1" value="5">
-                                            <label for="box-ingredient1">Add</label>
+                                            <div class="img-check">
+                                                <img src="./img/cheese.svg" alt="cheese">
+                                            </div>
+                                            <label for="box-ingredient1" class="ms-2">Cheese</label>
+                                            <input type="checkbox" class="check-ingredients ms-2" id="box-ingredient1" name="box-ingredient1" value="5">
+                                            <label for="box-ingredient1" class="ms-2">Add</label>
                                         </form>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-12 my-2">
                                         <form action="">
-                                            <label for="box-ingredient2">Egg</label>
-                                            <input type="checkbox" class="check-ingredients" id="box-ingredient2" name="box-ingredient2" value="10">
-                                            <label for="box-ingredient2">Add</label>
+                                            <div class="img-check">
+                                                <img src="./img/fried-egg.svg" alt="egg">
+                                            </div>
+                                            <label for="box-ingredient2" class="ms-2">Egg</label>
+                                            <input type="checkbox" class="check-ingredients ms-2" id="box-ingredient2" name="box-ingredient2" value="10">
+                                            <label for="box-ingredient2" class="ms-2">Add</label>
                                         </form>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-12 my-2">
                                         <form action="">
-                                            <label for="box-ingredient3">Mustard</label>
-                                            <input type="checkbox" class="check-ingredients" id="box-ingredient3" name="box-ingredient3" value="1">
-                                            <label for="box-ingredient3">Add</label>
+                                            <div class="img-check">
+                                                <img src="./img/mustard.svg" alt="mustard">
+                                            </div>
+                                            <label for="box-ingredient3" class="ms-2">Mustard</label>
+                                            <input type="checkbox" class="check-ingredients ms-2" id="box-ingredient3" name="box-ingredient3" value="1">
+                                            <label for="box-ingredient3" class="ms-2">Add</label>
                                         </form>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="row">
-                                    <div class="col-12">
+                                    <div class="col-12 my-2">
                                         <form action="">
-                                            <label for="box-ingredient4">Tomato</label>
-                                            <input type="checkbox" class="check-ingredients" id="box-ingredient4" name="box-ingredient4" value="2">
-                                            <label for="box-ingredient4">Add</label>
+                                            <div class="img-check">
+                                                <img src="./img/tomato.svg" alt="tomato">
+                                            </div>
+                                            <label for="box-ingredient4" class="ms-2">Tomato</label>
+                                            <input type="checkbox" class="check-ingredients ms-2" id="box-ingredient4" name="box-ingredient4" value="2">
+                                            <label for="box-ingredient4" class="ms-2">Add</label>
                                         </form>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-12 my-2">
                                         <form action="">
-                                            <label for="box-ingredient5">Lettuce</label>
-                                            <input type="checkbox" class="check-ingredients" id="box-ingredient5" name="box-ingredient5" value="1">
-                                            <label for="box-ingredient5">Add</label>
+                                            <div class="img-check">
+                                                <img src="./img/lettuce.svg" alt="lettuce">
+                                            </div>
+                                            <label for="box-ingredient5" class="ms-2">Lettuce</label>
+                                            <input type="checkbox" class="check-ingredients ms-2" id="box-ingredient5" name="box-ingredient5" value="1">
+                                            <label for="box-ingredient5" class="ms-2">Add</label>
                                         </form>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-12 my-2">
                                         <form action="">
-                                            <label for="box-ingredient6">Ketchup</label>
-                                            <input type="checkbox" class="check-ingredients" id="box-ingredient6" name="box-ingredient6" value="1">
-                                            <label for="box-ingredient6">Add</label>
+                                            <div class="img-check">
+                                                <img src="./img/ketchup.svg" alt="ketchup">
+                                            </div>
+                                            <label for="box-ingredient6" class="ms-2">Ketchup</label>
+                                            <input type="checkbox" class="check-ingredients ms-2" id="box-ingredient6" name="box-ingredient6" value="1">
+                                            <label for="box-ingredient6" class="ms-2">Add</label>
                                         </form>
                                     </div>
                                 </div>
@@ -91,10 +114,10 @@
 
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 my-4">
                         <form action="">
-                            <label for="discount">Discount Coupon</label>
-                            <input type="text" placeholder="12345ABCDEF" id="discount" class="discount-code gold-rose">
+                            <label for="discount" class="discount-coupon">Discount Coupon</label>
+                            <input type="text" placeholder="12345ABCDEF" id="discount" class="gold-rose">
                         </form>
                     </div>
                     <div class="col-12">
