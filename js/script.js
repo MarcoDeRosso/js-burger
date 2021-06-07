@@ -15,8 +15,7 @@ createSum.addEventListener("click", function() {
     }
     if (checkDiscount.value === "McBoolean") {
         var sconto = resultSumInt * 20 / 100;
-        resultSum.innerHTML = resultSumInt - sconto + "€";
     }
-    resultSum.innerHTML = resultSumInt + "€";
+    resultSum.innerHTML = resultSumInt - sconto + "€";
 
 })
