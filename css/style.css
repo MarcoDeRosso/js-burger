@@ -10,6 +10,36 @@
     background-color: #d33359;
 }
 
+.white {
+    background-color: #fff;
+}
+
+.red-font {
+    color: #f9395e;
+}
+
+.white-font {
+    color: #fff;
+}
+
+.img-container {
+    width: 200px;
+    height: auto;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+input[type="text"].burger-name {
+    border: none;
+    background: transparent;
+    color: #000;
+    font-weight: 600;
+    outline: none;
+}
+
 .img-check {
     width: 50px;
     height: 50px;
@@ -18,10 +48,15 @@
 
 #discount {
     border: none;
-    width: 80%;
+    width: 70%;
     border-radius: 10px;
+    font-weight: 600;
 }
 
 .display {
     height: 100vh;
+}
+
+.margin {
+    margin: 0;
 }
