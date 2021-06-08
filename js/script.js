@@ -15,7 +15,7 @@ createSum.addEventListener("click", function() {
     }
     var flag = false;
     for (var x = 0; x < arreyDiscount.length; x++) {
-        if (checkDiscount.value === arreyDiscount[x]) {
+        if (checkDiscount.value === arrayDiscount[x]) {
             resultSumInt -= (resultSumInt * 0.2);
             flag = true;
         }
