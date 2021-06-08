@@ -1,7 +1,7 @@
 var createSum = document.getElementById("somma-button");
 
 var resultSum = document.getElementById("price")
-var arreyDiscount = ["Mc5Boolean", "Bo0le4n", "M1c4D3"]
+var arrayDiscount = ["Mc5Boolean", "Bo0le4n", "M1c4D3"]
 
 
 createSum.addEventListener("click", function() {
